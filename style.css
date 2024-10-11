@@ -71,7 +71,7 @@ header a:not(:last-child)::after{
     flex-direction: column;
     align-items: center;
     height: 90vh;
-    background-image: url();
+    background-image: url(./banner_predio.jpg);
     background-size: cover;
     background-position: center;
 }    
@@ -234,7 +234,7 @@ aside button:hover{
     padding-right: 100px;
     padding-top: 50px;
     margin-top: 60px;
-    background-image: url(/programa_advogado/assets/images/banner_tematico.png);
+    background-image: url(./banner_tematico.png);
     background-size: cover;
     background-position: center;
 }
@@ -410,7 +410,7 @@ aside button:hover{
     background-color: #3d616a;
     margin-top: 50px;
     height: 550px;
-    background-image: url(/programa_advogado/assets/images/banner_tematico.png);
+    background-image: url(./banner_tematico.png);
 }
 .infos p{
      color: rgba(255, 255, 255, 0.484);
