@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: merriweather bold, sans-serif;
+    box-sizing: border-box;
 }
 @keyframes animate{
     0%{
