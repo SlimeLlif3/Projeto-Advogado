@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: merriweather bold;
+    font-family: merriweather bold, sans-serif;
 }
 @keyframes animate{
     0%{
@@ -14,13 +14,9 @@
         transform: scale(1);
     }  
 }
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
 body{
     background-color: white;
-    max-width: 100%;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -28,19 +24,20 @@ header{
     align-items: center;
     height: 130px;
     background-color: #3d616a;
+    position: relative;
 }
 header img{
     width: 200px;
     margin-left: 200px;
 }
-.hamburger {
+.hamburger{
     cursor: pointer;
     display: none; /* Inicialmente oculto */
     flex-direction: column;
     width: 30px;
     margin: 10px;
 }
-.line {
+.line{
     height: 3px;
     width: 25px;
     background-color: #94c38e;
@@ -49,14 +46,14 @@ header img{
 header nav{
     margin-left: 170px;
 }
-header a {
+header a{
     color: #94c38e;
     text-decoration: none;
     padding-right:50px;
     transition: transform 0.3s ease-in-out, font-size 0.3s;
 }
 header a:hover{
-   transform: scale(1.1);
+   transform: scale(1.2);
    font-size: 19px;
 }
 header a:not(:last-child)::after{
@@ -216,21 +213,23 @@ aside button:hover{
     flex-direction: row;
     height: 68vh;
     background-color: black;
-    padding-left: 200px;
-    padding-right: 100px;
     padding-top: 50px;
     margin-top: 60px;
     background-image: url(./banner_tematico.png);
     background-size: cover;
     background-position: center;
 }
+.align-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 #camp-form h3{
     font-family: playfair display regular;
     font-size: 36px;
     color: white;
-}
-.fale-conosco{
-    width: 40%;
 }
 .paragrafo-1{
     font-size: 18px;
@@ -252,7 +251,7 @@ aside button:hover{
 .select-button{
     display: flex;  
     appearance: none;
-    width: 277px;
+    width: 46%;
     height: 48px;
     outline: none;
     border: none;
@@ -266,9 +265,10 @@ aside button:hover{
 #form-group{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-left: 60px;
-    max-width: 53%;
-}
+   
+ }
 #form-group input{
     width: 240px;
     height: 10px;
@@ -295,16 +295,16 @@ aside button:hover{
     font-family: sans-serif;
 }
 #form-group textarea{
-    margin-left: 25px;
     height: 120px;
     padding: 15px;
+    margin-left: 25px;
     resize: none;
     box-shadow: none;
     border: 1px solid #94c38e;
     background-color: #203439;
     color: white;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 16px;            
 }
 #form-group textarea:focus{
     outline: none;
@@ -340,7 +340,9 @@ aside button:hover{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
 }
+
 .carregamento-group button:hover{
     background-color: rgb(128, 190, 132);
     transition: all 0.45s ease;
@@ -379,6 +381,7 @@ aside button:hover{
     height: 300px;
     width: 800px;
 }
+
 #area-atuacao{
     display: flex;
     flex-direction: column;
@@ -453,7 +456,8 @@ aside button:hover{
     flex-direction: column;
     width: 83%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 70px;
+    
 }
 .iframe iframe{
     height: 70vh;
@@ -462,9 +466,10 @@ aside button:hover{
 }
 .infos{
     background-color: #3d616a;
-    margin-top: 50px;
+    margin-top: 70px;
     height: 550px;
     background-image: url(./banner_tematico.png);
+   
 }
 .infos p{
      color: rgba(255, 255, 255, 0.484);
@@ -474,10 +479,12 @@ aside button:hover{
 .content-infos{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .content-infos img{
     width: 300px;
-    margin-left: 100px;
+    
 }
 .menu{
     margin-left: 90px;
@@ -512,7 +519,7 @@ aside button:hover{
     font-size: 20px;
     margin-bottom: 20px;
 }
-#localizacao{
+.localizacao{
     margin-top: 60px;
 }
 .contato-group{
@@ -556,6 +563,13 @@ footer h6{
 .container{
     display: flex;
 }
+
+
+
+
+
+
+
 
 
 

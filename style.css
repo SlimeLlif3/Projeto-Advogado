@@ -139,8 +139,6 @@ aside button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
     margin-top: 80px;
 }
 .line-post1 article{
@@ -148,6 +146,7 @@ aside button:hover{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     height: 460px;
     width: 330px;
     background-color: #1b1b1b;
@@ -230,21 +229,23 @@ aside button:hover{
     flex-direction: row;
     height: 68vh;
     background-color: black;
-    padding-left: 200px;
-    padding-right: 100px;
     padding-top: 50px;
     margin-top: 60px;
     background-image: url(./banner_tematico.png);
     background-size: cover;
     background-position: center;
 }
+.align-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 #camp-form h3{
     font-family: playfair display regular;
     font-size: 36px;
     color: white;
-}
-.fale-conosco{
-    width: 40%;
 }
 .paragrafo-1{
     font-size: 18px;
@@ -280,8 +281,9 @@ aside button:hover{
 #form-group{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-left: 60px;
-    max-width: 53%;
+   
  }
 #form-group input{
     width: 240px;
@@ -309,9 +311,9 @@ aside button:hover{
     font-family: sans-serif;
 }
 #form-group textarea{
-    margin-left: 25px;
     height: 120px;
     padding: 15px;
+    margin-left: 25px;
     resize: none;
     box-shadow: none;
     border: 1px solid #94c38e;
@@ -411,6 +413,7 @@ aside button:hover{
     margin-top: 50px;
     height: 550px;
     background-image: url(./banner_tematico.png);
+   
 }
 .infos p{
      color: rgba(255, 255, 255, 0.484);
@@ -420,10 +423,12 @@ aside button:hover{
 .content-infos{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .content-infos img{
     width: 300px;
-    margin-left: 100px;
+    
 }
 .menu{
     margin-left: 90px;
