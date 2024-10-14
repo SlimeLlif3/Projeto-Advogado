@@ -299,16 +299,24 @@
      .infos{
         height: 170vh;
      }
-}
-@media screen and (max-width: 573px){
-    .fale-conosco{
+     .fale-conosco{
         padding-left: 40px;
         padding-right: 40px;
     }
-} 
+}
 @media screen and (max-width: 367px){
     .infos{
         height: 180vh;
+    }
+}
+@media screen and (min-height: 932px){
+    .infos{
+        height: 140vh;
+    }
+}
+@media screen and (max-height: 667px){
+    .infos{
+        height: 190vh;
     }
 }
     

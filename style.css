@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     font-family: merriweather bold, sans-serif;
-    box-sizing: border-box;
 }
 @keyframes animate{
     0%{
@@ -15,9 +14,9 @@
         transform: scale(1);
     }  
 }
-body{
+body, html{
     background-color: white;
-    overflow-x: hidden;
+    overflow-x: hidden !important; 
 }
 header{
     display: flex;
