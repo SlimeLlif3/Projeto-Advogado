@@ -122,11 +122,12 @@ aside button{
     border-radius: 100px;
     border: none;
     background-color: #2fe235;
-    padding: 10px;
+    padding-top: 3px;
     bottom: 15px;
     right: 20px;
+    height: 70px;
+    width: 70px;
     cursor: pointer;
-    box-shadow: 0px 0px 8px;
     transition: transform 0.3s ease;
 }
 aside button:hover{
