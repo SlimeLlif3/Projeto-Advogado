@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     font-family: merriweather bold, sans-serif;
-   
 }
 @keyframes animate{
     0%{
@@ -270,7 +269,6 @@ aside button:hover{
     flex-direction: column;
     justify-content: center;
     margin-left: 60px;
-   
  }
 #form-group input{
     width: 240px;
@@ -345,7 +343,6 @@ aside button:hover{
     cursor: pointer;
 
 }
-
 .carregamento-group button:hover{
     background-color: rgb(128, 190, 132);
     transition: all 0.45s ease;
@@ -384,83 +381,12 @@ aside button:hover{
     height: 300px;
     width: 800px;
 }
-
-#area-atuacao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 1150px;
-    background-color: #3d616a;
-}
-#area-atuacao div{
-    display: flex;
-    margin-top: 40px;    
-}
-#area-atuacao div section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 400px;
-    width: 400px;
-    background-color: #F2F2F2;
-    border-radius: 7px;
-    box-shadow: 0px 0px 15px;
-}
-#area-atuacao div section:not(:last-child){
-    margin-right: 25px;
-}
-#area-atuacao img{
-    width: 280px;
-    margin-top: 50px;
-    border-radius: 3px;
-}
-#area-atuacao h2{
-    color: #94c38e;
-    font-size: 35px;
-    padding-top: 40px;
-}
-#area-atuacao h4{
-    font-size: 25px;
-    color: #3d616a;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 60px;
-}
-#area-atuacao button{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 260px;
-    height: 55px;
-    background-color: rgb(116, 178, 119);
-    border-radius: 6px;
-    font-size: 15px;
-    color: #FFFFFF;
-    border: none;
-    cursor: pointer; 
-    box-shadow: 0px 0px 7px #3d616a;
-    margin-top: 50px;
-}
-#area-atuacao button:hover{
-    animation: animate 2s linear infinite;
-}
-#area-atuacao button img{
-    margin-right: 20px;
-    margin-bottom: 50px;
-    width: 25px;
-}
-#area-atuacao a{
-    text-decoration: none;
-}
 .iframe{
     display: flex;
     flex-direction: column;
     width: 83%;
     margin: 0 auto;
     margin-top: 70px;
-    
 }
 .iframe iframe{
     height: 70vh;
@@ -472,7 +398,6 @@ aside button:hover{
     margin-top: 70px;
     height: 550px;
     background-image: url(./banner_tematico.png);
-   
 }
 .infos p{
      color: rgba(255, 255, 255, 0.484);
